@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Press Start 2P", "cursive";
+  font-size: 20px;
+  font-weight: 600;
+  background-image: url("—Pngtree—blue flat space planet banner_1101291.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: red;
+}
+.title {
+  font-size: 60px;
+  height: 10%;
+  color: yellow;
+  margin: 60px 0 -50px 320px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  margin: 80px auto 20px auto;
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.box {
+  margin: 20px;
+  padding: 20px;
+  height: 130px;
+  width: 130px;
+  background-image: url("SeekPng.com_space-invader-png_1925983.png");
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 20%;
+}
+#button {
+  height: 60px;
+  width: 50%;
+  font-size: 30px;
+  font-weight: 600;
+  background-color:   #12D50F;
+  color: white;
+  letter-spacing: 0.5em;
+  font-family: "Press Start 2P", "cursive";
+  padding: 15px;
+}
+.score {
+  color: white;
+  height: 100px;
+  width: 100px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+div.box-14 {
+  background-image: url("SeekPng.com_alien-png_196794.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+div.box-1, div.box-2, div.box-3, div.box-4, div.box-5 {
+    background-image: url("SeekPng.com_space-png_139338.png")
+
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  opacity: 0.5;
+  visibility: hidden;
+  transform: scale(1.1);
+  
+}
+.modal .modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 30px 10px;
+  width: 24rem;
+  border: 2px solid yellow;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+
+}
